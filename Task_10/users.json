@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "name": "John Smith",
+    "username": "johnsmith",
+    "email": "johnsmith@example.com",
+    "phone": "+1 555-123-4567",
+    "website": "www.johnsmith.com",
+    "company": {
+      "name": "Smith Enterprises",
+      "catchPhrase": "Empowering businesses",
+      "bs": "Innovative solutions"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Emily Johnson",
+    "username": "emilyj",
+    "email": "emilyjohnson@example.com",
+    "phone": "+1 555-987-6543",
+    "website": "www.emilyjohnson.com",
+    "company": {
+      "name": "Johnson Corporation",
+      "catchPhrase": "Driving innovation",
+      "bs": "Global reach"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Michael Davis",
+    "username": "mdavis",
+    "email": "michaeldavis@example.com",
+    "phone": "+1 555-456-7890",
+    "website": "www.michaeldavis.com",
+    "company": {
+      "name": "Davis Co.",
+      "catchPhrase": "Transforming industries",
+      "bs": "Cutting-edge technology"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Sarah Johnson",
+    "username": "sarahj",
+    "email": "sarahjohnson@example.com",
+    "phone": "+1 555-234-5678",
+    "website": "www.sarahjohnson.com",
+    "company": {
+      "name": "Johnson & Sons",
+      "catchPhrase": "Innovating for success",
+      "bs": "Strategic partnerships"
+    }
+  },
+  {
+    "id": 5,
+    "name": "David Wilson",
+    "username": "davidw",
+    "email": "davidwilson@example.com",
+    "phone": "+1 555-876-5432",
+    "website": "www.davidwilson.com",
+    "company": {
+      "name": "Wilson Technologies",
+      "catchPhrase": "Simplifying technology",
+      "bs": "Efficiency solutions"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Jennifer Brown",
+    "username": "jenniferb",
+    "email": "jenniferbrown@example.com",
+    "phone": "+1 555-345-6789",
+    "website": "www.jenniferbrown.com",
+    "company": {
+      "name": "Brown Solutions",
+      "catchPhrase": "Driving growth",
+      "bs": "Strategic consulting"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Daniel Clark",
+    "username": "danielc",
+    "email": "danielclark@example.com",
+    "phone": "+1 555-765-4321",
+    "website": "www.danielclark.com",
+    "company": {
+      "name": "Clark Industries",
+      "catchPhrase": "Engineering excellence",
+      "bs": "Quality manufacturing"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Jessica Martinez",
+    "username": "jessicam",
+    "email": "jessicamartinez@example.com",
+    "phone": "+1 555-987-6543",
+    "website": "www.jessicamartinez.com",
+    "company": {
+      "name": "Martinez Enterprises",
+      "catchPhrase": "Building the future",
+      "bs": "Innovation at its best"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Christopher Thompson",
+    "username": "christophert",
+    "email": "christopherthompson@example.com",
+    "phone": "+1 555-234-5678",
+    "website": "www.christopherthompson.com",
+    "company": {
+      "name": "Thompson Systems",
+      "catchPhrase": "Efficiency through technology",
+      "bs": "Streamlined processes"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Ashley Lee",
+    "username": "ashleyl",
+    "email": "ashleylee@example.com",
+    "phone": "+1 555-876-5432",
+    "website": "www.ashleylee.com",
+    "company": {
+      "name": "Lee Innovations",
+      "catchPhrase": "Transforming ideas into reality",
+      "bs": "Creative solutions"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Matthew Harris",
+    "username": "matthewh",
+    "email": "matthewharris@example.com",
+    "phone": "+1 555-345-6789",
+    "website": "www.matthewharris.com",
+    "company": {
+      "name": "Harris Technologies",
+      "catchPhrase": "Driving the digital revolution",
+      "bs": "Cutting-edge software"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Lauren Rodriguez",
+    "username": "laurenr",
+    "email": "laurenrodriguez@example.com",
+    "phone": "+1 555-765-4321",
+    "website": "www.laurenrodriguez.com",
+    "company": {
+      "name": "Rodriguez Solutions",
+      "catchPhrase": "Innovative strategies for success",
+      "bs": "Market leadership"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Andrew Green",
+    "username": "andrewg",
+    "email": "andrewgreen@example.com",
+    "phone": "+1 555-987-6543",
+    "website": "www.andrewgreen.com",
+    "company": {
+      "name": "Green Technologies",
+      "catchPhrase": "Sustainable solutions for a better world",
+      "bs": "Environmental responsibility"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Stephanie Turner",
+    "username": "stephaniet",
+    "email": "stephanieturner@example.com",
+    "phone": "+1 555-234-5678",
+    "website": "www.stephanieturner.com",
+    "company": {
+      "name": "Turner Systems",
+      "catchPhrase": "Unlocking business potential",
+      "bs": "Data-driven insights"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Ryan Martinez",
+    "username": "ryanm",
+    "email": "ryanmartinez@example.com",
+    "phone": "+1 555-876-5432",
+    "website": "www.ryanmartinez.com",
+    "company": {
+      "name": "Martinez Solutions",
+      "catchPhrase": "Inspiring innovation",
+      "bs": "Agile methodologies"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Olivia Lewis",
+    "username": "olivial",
+    "email": "olivialewis@example.com",
+    "phone": "+1 555-345-6789",
+    "website": "www.olivialewis.com",
+    "company": {
+      "name": "Lewis Enterprises",
+      "catchPhrase": "Driving transformation",
+      "bs": "Strategic partnerships"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Justin Collins",
+    "username": "justinc",
+    "email": "justincollins@example.com",
+    "phone": "+1 555-765-4321",
+    "website": "www.justincollins.com",
+    "company": {
+      "name": "Collins Solutions",
+      "catchPhrase": "Innovating for tomorrow",
+      "bs": "Continuous improvement"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Megan Thompson",
+    "username": "meganth",
+    "email": "meganthompson@example.com",
+    "phone": "+1 555-987-6543",
+    "website": "www.meganthompson.com",
+    "company": {
+      "name": "Thompson Innovations",
+      "catchPhrase": "Empowering businesses through technology",
+      "bs": "Digital transformation"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Brandon Wright",
+    "username": "brandonw",
+    "email": "brandonwright@example.com",
+    "phone": "+1 555-234-5678",
+    "website": "www.brandonwright.com",
+    "company": {
+      "name": "Wright Technologies",
+      "catchPhrase": "Innovative solutions for a connected world",
+      "bs": "IoT integration"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Amanda Hill",
+    "username": "amandah",
+    "email": "amandahill@example.com",
+    "phone": "+1 555-876-5432",
+    "website": "www.amandahill.com",
+    "company": {
+      "name": "Hill Systems",
+      "catchPhrase": "Driving digital transformation",
+      "bs": "Cloud-based solutions"
+    }
+  },
+  {
+    "id": 21,
+    "name": "James White",
+    "username": "jamesw",
+    "email": "jameswhite@example.com",
+    "phone": "+1 555-345-6789",
+    "website": "www.jameswhite.com",
+    "company": {
+      "name": "White Innovations",
+      "catchPhrase": "Innovating for a better future",
+      "bs": "Cutting-edge technology"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Rachel Hall",
+    "username": "rachelh",
+    "email": "rachelhall@example.com",
+    "phone": "+1 555-765-4321",
+    "website": "www.rachelhall.com",
+    "company": {
+      "name": "Hall Solutions",
+      "catchPhrase": "Empowering businesses through innovation",
+      "bs": "Strategic consulting"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Jason Rodriguez",
+    "username": "jasonr",
+    "email": "jasonrodriguez@example.com",
+    "phone": "+1 555-987-6543",
+    "website": "www.jasonrodriguez.com",
+    "company": {
+      "name": "Rodriguez Enterprises",
+      "catchPhrase": "Transforming industries through technology",
+      "bs": "Digital disruption"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Melissa Turner",
+    "username": "melissat",
+    "email": "melissaturner@example.com",
+    "phone": "+1 555-234-5678",
+    "website": "www.melissaturner.com",
+    "company": {
+      "name": "Turner Innovations",
+      "catchPhrase": "Innovative solutions for a changing world",
+      "bs": "Adaptability"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Kevin Scott",
+    "username": "kevins",
+    "email": "kevinscott@example.com",
+    "phone": "+1 555-876-5432",
+    "website": "www.kevinscott.com",
+    "company": {
+      "name": "Scott Technologies",
+      "catchPhrase": "Enabling digital transformation",
+      "bs": "End-to-end solutions"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Christina Young",
+    "username": "christinay",
+    "email": "christinayoung@example.com",
+    "phone": "+1 555-345-6789",
+    "website": "www.christinayoung.com",
+    "company": {
+      "name": "Young Solutions",
+      "catchPhrase": "Driving innovation for success",
+      "bs": "Strategic partnerships"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Nathan King",
+    "username": "nathank",
+    "email": "nathanking@example.com",
+    "phone": "+1 555-765-4321",
+    "website": "www.nathanking.com",
+    "company": {
+      "name": "King Enterprises",
+      "catchPhrase": "Innovating for a better tomorrow",
+      "bs": "Cutting-edge technology"
+    }
+  },
+  {
+    "id": 28,
+    "name": "Samantha Baker",
+    "username": "samanthab",
+    "email": "samanthabaker@example.com",
+    "phone": "+1 555-987-6543",
+    "website": "www.samanthabaker.com",
+    "company": {
+      "name": "Baker Innovations",
+      "catchPhrase": "Inspiring creativity",
+      "bs": "Innovative solutions"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Patrick Wright",
+    "username": "patrickw",
+    "email": "patrickwright@example.com",
+    "phone": "+1 555-234-5678",
+    "website": "www.patrickwright.com",
+    "company": {
+      "name": "Wright Solutions",
+      "catchPhrase": "Enabling business transformation",
+      "bs": "Digital disruption"
+    }
+  },
+  {
+    "id": 30,
+    "name": "Hannah Moore",
+    "username": "hannahm",
+    "email": "hannahmoore@example.com",
+    "phone": "+1 555-876-5432",
+    "website": "www.hannahmoore.com",
+    "company": {
+      "name": "Moore Technologies",
+      "catchPhrase": "Driving innovation through technology",
+      "bs": "Strategic consulting"
+    }
+  },
+  {
+    "id": 31,
+    "name": "Daniel Martinez",
+    "username": "danielm",
+    "email": "danielmartinez@example.com",
+    "phone": "+1 555-345-6789",
+    "website": "www.danielmartinez.com",
+    "company": {
+      "name": "Martinez Solutions",
+      "catchPhrase": "Empowering businesses through innovation",
+      "bs": "Strategic partnerships"
+    }
+  },
+  {
+    "id": 32,
+    "name": "Emily Clark",
+    "username": "emilyc",
+    "email": "emilyclark@example.com",
+    "phone": "+1 555-765-4321",
+    "website": "www.emilyclark.com",
+    "company": {
+      "name": "Clark Innovations",
+      "catchPhrase": "Innovating for success",
+      "bs": "Cutting-edge technology"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Christopher Turner",
+    "username": "christophert2",
+    "email": "christopherturner@example.com",
+    "phone": "+1 555-987-6543",
+    "website": "www.christopherturner.com",
+    "company": {
+      "name": "Turner Enterprises",
+      "catchPhrase": "Transforming businesses through innovation",
+      "bs": "Strategic consulting"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Sarah Reed",
+    "username": "sarahre",
+    "email": "sarahreed@example.com",
+    "phone": "+1 555-234-5678",
+    "website": "www.sarahreed.com",
+    "company": {
+      "name": "Reed Solutions",
+      "catchPhrase": "Driving digital transformation",
+      "bs": "Cutting-edge technology"
+    }
+  },
+  {
+    "id": 35,
+    "name": "David Hall",
+    "username": "davidh",
+    "email": "davidhall@example.com",
+    "phone": "+1 555-876-5432",
+    "website": "www.davidhall.com",
+    "company": {
+      "name": "Hall Technologies",
+      "catchPhrase": "Innovative solutions for a connected world",
+      "bs": "IoT integration"
+    }
+  },
+  {
+    "id": 36,
+    "name": "Jessica Phillips",
+    "username": "jessicap",
+    "email": "jessicaphillips@example.com",
+    "phone": "+1 555-345-6789",
+    "website": "www.jessicaphillips.com",
+    "company": {
+      "name": "Phillips Innovations",
+      "catchPhrase": "Transforming industries through technology",
+      "bs": "Digital disruption"
+    }
+  },
+  {
+    "id": 37,
+    "name": "Ryan Davis",
+    "username": "ryand",
+    "email": "ryandavis@example.com",
+    "phone": "+1 555-765-4321",
+    "website": "www.ryandavis.com",
+    "company": {
+      "name": "Davis Solutions",
+      "catchPhrase": "Innovating for a better future",
+      "bs": "Cutting-edge technology"
+    }
+  },
+  {
+    "id": 38,
+    "name": "Ashley Walker",
+    "username": "ashleyw",
+    "email": "ashleywalker@example.com",
+    "phone": "+1 555-987-6543",
+    "website": "www.ashleywalker.com",
+    "company": {
+      "name": "Walker Enterprises",
+      "catchPhrase": "Inspiring innovation",
+      "bs": "Agile methodologies"
+    }
+  },
+  {
+    "id": 39,
+    "name": "Michael Thompson",
+    "username": "michaelt",
+    "email": "michaelthompson@example.com",
+    "phone": "+1 555-234-5678",
+    "website": "www.michaelthompson.com",
+    "company": {
+      "name": "Thompson Innovations",
+      "catchPhrase": "Driving digital transformation",
+      "bs": "Cloud-based solutions"
+    }
+  },
+  {
+    "id": 40,
+    "name": "Rachel Wilson",
+    "username": "rachelw",
+    "email": "rachelwilson@example.com",
+    "phone": "+1 555-876-5432",
+    "website": "www.rachelwilson.com",
+    "company": {
+      "name": "Wilson Technologies",
+      "catchPhrase": "Innovative solutions for a changing world",
+      "bs": "Adaptability"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Daniel Moore",
+    "username": "danielm2",
+    "email": "danielmoore@example.com",
+    "phone": "+1 555-345-6789",
+    "website": "www.danielmoore.com",
+    "company": {
+      "name": "Moore Innovations",
+      "catchPhrase": "Enabling business transformation",
+      "bs": "Digital disruption"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Emily Hernandez",
+    "username": "emilyh",
+    "email": "emilyhernandez@example.com",
+    "phone": "+1 555-765-4321",
+    "website": "www.emilyhernandez.com",
+    "company": {
+      "name": "Hernandez Enterprises",
+      "catchPhrase": "Innovating for success",
+      "bs": "Cutting-edge technology"
+    }
+  },
+  {
+    "id": 43,
+    "name": "Michael Johnson",
+    "username": "michaelj",
+    "email": "michaeljohnson@example.com",
+    "phone": "+1 555-987-6543",
+    "website": "www.michaeljohnson.com",
+    "company": {
+      "name": "Johnson Solutions",
+      "catchPhrase": "Empowering businesses through innovation",
+      "bs": "Strategic partnerships"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Alexis Collins",
+    "username": "alexisc",
+    "email": "alexiscollins@example.com",
+    "phone": "+1 555-234-5678",
+    "website": "www.alexiscollins.com",
+    "company": {
+      "name": "Collins Innovations",
+      "catchPhrase": "Driving digital transformation",
+      "bs": "Cutting-edge technology"
+    }
+  },
+  {
+    "id": 45,
+    "name": "Ryan Hernandez",
+    "username": "ryanh",
+    "email": "ryanhernandez@example.com",
+    "phone": "+1 555-876-5432",
+    "website": "www.ryanhernandez.com",
+    "company": {
+      "name": "Hernandez Technologies",
+      "catchPhrase": "Innovative solutions for a connected world",
+      "bs": "IoT integration"
+    }
+  },
+  {
+    "id": 46,
+    "name": "Olivia Phillips",
+    "username": "oliviap",
+    "email": "oliviaphillips@example.com",
+    "phone": "+1 555-345-6789",
+    "website": "www.oliviaphillips.com",
+    "company": {
+      "name": "Phillips Enterprises",
+      "catchPhrase": "Transforming industries through technology",
+      "bs": "Digital disruption"
+    }
+  },
+  {
+    "id": 47,
+    "name": "Jacob Lewis",
+    "username": "jacobl",
+    "email": "jacoblewis@example.com",
+    "phone": "+1 555-765-4321",
+    "website": "www.jacoblewis.com",
+    "company": {
+      "name": "Lewis Solutions",
+      "catchPhrase": "Innovating for a better future",
+      "bs": "Cutting-edge technology"
+    }
+  },
+  {
+    "id": 48,
+    "name": "Emma Turner",
+    "username": "emmat",
+    "email": "emmaturner@example.com",
+    "phone": "+1 555-987-6543",
+    "website": "www.emmaturner.com",
+    "company": {
+      "name": "Turner Innovations",
+      "catchPhrase": "Inspiring creativity",
+      "bs": "Innovative solutions"
+    }
+  },
+  {
+    "id": 49,
+    "name": "Matthew Wright",
+    "username": "mattheww",
+    "email": "matthewwright@example.com",
+    "phone": "+1 555-234-5678",
+    "website": "www.matthewwright.com",
+    "company": {
+      "name": "Wright Solutions",
+      "catchPhrase": "Enabling digital transformation",
+      "bs": "End-to-end solutions"
+    }
+  },
+  {
+    "id": 50,
+    "name": "Grace Hill",
+    "username": "graceh",
+    "email": "gracehill@example.com",
+    "phone": "+1 555-876-5432",
+    "website": "www.gracehill.com",
+    "company": {
+      "name": "Hill Innovations",
+      "catchPhrase": "Driving innovation for success",
+      "bs": "Strategic partnerships"
+    }
+  }
+]
