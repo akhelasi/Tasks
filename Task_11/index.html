@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 11</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>Products</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+    <div class="products">
+
+        <div class="product">
+            <img class="pict" src="product1.jpg">
+            <h4>Product 1</h4>
+            <p>$ 19.99</p>
+            <button onclick="popup()">Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img class="pict" src="product2.jpg">
+            <h4>Product 2</h4>
+            <p>$ 24.99</p>
+            <button onclick="popup()">Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img class="pict" src="product3.jpg">
+            <h4>Product 3</h4>
+            <p>$ 14.99</p>
+            <button onclick="popup()">Buy Now</button>
+        </div>
+
+    </div>
+
+    <div class="popup" id="popup" onclick="close()">
+        <div class="popupBox" id="popupBox">
+            <p>Thank you for your purchase</p>
+            <p>( Keydown on "Escape" )</p>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

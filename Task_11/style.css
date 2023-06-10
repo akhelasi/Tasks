@@ -1,0 +1,115 @@
+/*     CSS     */
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.nav {
+    margin-top: 5px;
+    width: 100%;
+    background: #333333;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: #333333;
+}
+
+li {
+    float: left;
+    padding: 0 7px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 50px;
+}
+
+li:hover {
+    background: #727272;
+}
+
+.pict {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.products {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.product {
+    min-width: 150px;
+    width: 20%;
+    float: left;
+    display: flex;
+    height: fit-content;
+    margin: auto;
+    flex-direction: column;
+    padding: 1%;
+    border: solid 1px #cccccc;
+}
+
+button {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.popup {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visibility .5s;
+}
+
+.popupBox {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    background: white;
+    max-width: 350px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .products {
+        flex-direction: column;
+        margin: 110px 0 0;
+        padding: 0 0 50px;
+    }
+
+    .product {
+        margin: 10px auto;
+    }
+}
