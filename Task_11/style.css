@@ -105,6 +105,7 @@ button {
 
     .products {
         flex-direction: column;
+        justify-content: flex-start;
         margin: 110px 0 0;
         padding: 0 0 50px;
     }
