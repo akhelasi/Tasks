@@ -1,6 +1,6 @@
 /*   JavaScript   */
 
-import * as THREE from 'three';
+import * as THREE from './../node_modules/.vite/deps/three.js?v=59066482';
 
 // scene
 const scene = new THREE.Scene();
@@ -28,8 +28,9 @@ camera.position.z = 5;
 // cube's rotation
 function animate() {
     requestAnimationFrame( animate );
-    cube.rotation.x += 0.01;
-    cube.rotation.y += 0.01;
+    cube.rotation.x += 0.001;
+    cube.rotation.y += 0.002;
+    cube.rotation.z += 0.003;
     renderer.render( scene, camera );
 }
 animate();
