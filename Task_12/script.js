@@ -1,6 +1,6 @@
 /*   JavaScript   */
 
-import * as THREE from './../node_modules/.vite/deps/three.js?v=59066482';
+import * as THREE from './../node_modules/.vite/deps/three.js';
 
 // scene
 const scene = new THREE.Scene();
