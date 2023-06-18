@@ -1,12 +1,12 @@
 /*   JavaScript   */
 
-import * as THREE from '../node_modules/.vite/deps/three.js';
+import * as THREE from './../node_modules/three/build/three.module.js';
 
 // scene
 const scene = new THREE.Scene();
 
 // camera
-const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+const camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
 // renderers
 const renderer = new THREE.WebGLRenderer();
@@ -28,9 +28,9 @@ camera.position.z = 5;
 // cube's rotation
 function animate() {
     requestAnimationFrame( animate );
-    cube.rotation.x += 0.001;
-    cube.rotation.y += 0.002;
-    cube.rotation.z += 0.003;
+    cube.rotation.x += 0.003;
+    cube.rotation.y += 0.006;
+    cube.rotation.z += 0.009;
     renderer.render( scene, camera );
 }
 animate();
