@@ -1,5 +1,7 @@
 /*   JavaScript   */
 
+import * as THREE from '../node_modules/three/src/Three.js';
+
 // scene
 const scene = new THREE.Scene();
 
