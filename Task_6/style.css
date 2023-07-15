@@ -1,0 +1,48 @@
+/*     CSS     */
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #dddddd;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+#cubes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cube {
+    margin: 5px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.table {
+    position: absolute;
+    background: #cdcdcd;
+    height: fit-content;
+    top: 20%;
+    left: 50%;
+    border-radius: 5px;
+    transform: translate(-50%,0%);
+    padding: 15px;
+    min-width: 50%;
+    max-width: calc(100% - 40px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.buttons {
+    width: fit-content;
+    margin: 15px auto 0;
+}
+

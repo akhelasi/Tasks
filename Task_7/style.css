@@ -1,0 +1,82 @@
+/*     CSS     */
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ededec;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.UserData {
+    padding: 1% 0 0;
+}
+
+.table {
+    position: absolute;
+    background: #f6f6f5;
+    height: fit-content;
+    top: 15%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%,0%);
+    padding: 15px;
+    min-width: 50%;
+    max-width: calc(100% - 40px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#result {
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-bottom: 4%;
+    padding: 2%;
+}
+
+.hide {
+    display: none;
+}
+
+input {
+    margin: auto;
+    display: flex;
+    padding: 10px 2%;
+    max-width: 100%;
+    border-radius: 10px;
+    border: 0;
+    background: #428bfb;
+    color: white;
+    font-size: x-large;
+}
+
+input:hover {
+    background: royalblue;
+}
+
+.user {
+    background: #fefefe;
+}
+
+h2 {
+    margin: 5px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+.details {
+    display:flex;
+}
+
+p {
+    margin: 7px 0 0;
+}

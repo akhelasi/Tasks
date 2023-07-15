@@ -1,0 +1,29 @@
+/*     CSS     */
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #363636;
+    height: 100%;
+    color: white;
+    font-family: sans-serif;
+}
+
+.time {
+
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    font-size: xxx-large;
+}
+
+.date {
+    position: absolute;
+    top: 53%;
+    transform: translate(-50%,0%);
+    left: 47%;
+    font-size: x-large;
+}

@@ -1,0 +1,136 @@
+/*     CSS     */
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.lightContainer {
+    background: #ededec;
+}
+
+.darkContainer {
+    background: #505050;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.UserData {
+    padding: 1% 0 0;
+}
+
+.table {
+    position: absolute;
+    height: fit-content;
+    top: 15%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%,0%);
+    padding: 15px;
+    min-width: 50%;
+    max-width: calc(100% - 40px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.lightTable {
+    background: #f6f6f5;
+}
+
+.darkTable {
+    background: #353535;
+    border: solid 1px white;
+}
+
+
+
+#result {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-bottom: 4%;
+    padding: 2%;
+}
+
+.lightResult {
+    background: white;
+}
+
+.darkResult {
+    background: #202020;
+    border: solid 1px white;
+}
+
+.hide {
+    display: none;
+}
+
+input {
+    margin: auto;
+    display: flex;
+    padding: 10px 2%;
+    max-width: 100%;
+    border-radius: 10px;
+    border: 0;
+    font-size: x-large;
+    color: white;
+}
+
+.lightGetUser {
+    background: #428bfb;
+}
+
+.lightGetUser:hover {
+    background: royalblue;
+}
+
+.darkGetUser {
+    background: #3166b8;
+}
+
+.darkGetUser:hover {
+    background: #2d5aa1;
+}
+
+.user {
+    background: #fefefe;
+}
+
+h2 {
+    margin: 5px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+.details {
+    display:flex;
+}
+
+p {
+    margin: 7px 0 0;
+}
+
+.theme {
+    height: 40px;
+    width: 40px;
+    display: block;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+
+.dark {
+    background-image: url("dark.svg");
+}
+
+.light {
+    background-image: url("light.svg");
+}

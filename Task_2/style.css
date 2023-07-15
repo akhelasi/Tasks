@@ -1,0 +1,53 @@
+.nav {
+    width: 100%;
+    background: #565555;
+    height: 50px;
+    border-radius: 25px;
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 0 25px;
+    width: calc(100% - 65px);
+}
+
+ul li {
+    float: left;
+    width: 25%;
+}
+
+ul li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 50px;
+}
+
+a:hover {
+    background: #727272;
+}
+
+ul li ul {
+    background: #727272;
+    margin: 0;
+    border-top: solid 3px white;
+    width: 25%;
+    backface-visibility: hidden;
+    transform: rotateX(-90deg);
+    transform-origin: top center;
+    transition: transform .8s;
+}
+
+ul li ul li {
+    float: none;
+    width: 100%;
+}
+
+ul li:hover ul {
+    transform: rotateX(0) translateZ(0);
+}

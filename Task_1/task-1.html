@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1</title>
+
+    <style>
+        body {
+            background: #f5f4f4;
+            font-family: sans-serif;
+        }
+
+        .main {
+            position: absolute;
+            background: white;
+            width: 300px;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            left: 50%;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+        }
+
+        input {
+            width: calc(100% - 10px);
+            border: 0;
+            background: #f5f4f4;
+            margin: 10px 0 15px;
+            padding: 8px 5px;
+            border-radius: 5px;
+        }
+
+        .button {
+            background: #3F51B5;
+            color: white;
+            padding: 8px 0;
+            width: 100%;
+            margin: 20px 0 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 0 0 10px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="main">
+    <h1>Sign Up</h1>
+    <form method="get" action="task-1.html">
+        <label for="name">Name</label>
+        <input id="name"/>
+        <label for="email">Email</label>
+        <input id="email"/>
+        <label for="password">Password</label>
+        <input type="password" id="password"/>
+        <label for="confirm_password">Confirm Password</label>
+        <input type="password" id="confirm_password"/>
+        <input type="submit" class="button" value="Sigh Up">
+
+    </form>
+</div>
+</body>
+</html>
