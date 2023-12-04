@@ -56,10 +56,10 @@ li:hover {
 
 .product {
     min-width: 150px;
-    width: 20%;
+    width: max-content;
     float: left;
     display: flex;
-    height: fit-content;
+    height: max-content;
     margin: auto;
     flex-direction: column;
     padding: 1%;
